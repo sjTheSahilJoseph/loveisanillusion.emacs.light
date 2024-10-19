@@ -23,8 +23,6 @@
 	     (active_line_number_foreground "#aaaaaa")
 	     (hl_line_background "#d5d5d5")
 	     (dired_directory_background "#333333")
-	     (mis_match_paren_foreground "#990000")
-	     (match_paren_foreground "#112211")
 	     (error_color "#bb0000")
 	     (warning_color "#bbbb00")
          (dim_fr "#969696")
@@ -50,8 +48,8 @@
         `(mode-line-inactive ((t (:foreground ,modline_inactive_foreground :background ,modline_inactive_background))))
         `(mode-line ((t (:foreground ,modline_active_foreground :background ,modline_active_background))))
 
-        `(show-paren-match ((nil (:foreground ,match_paren_foreground) )))
-        `(show-paren-mismatch ((nil (:foreground ,mis_match_paren_foreground) )))
+        `(show-paren-match (nil))
+        `(show-paren-nismatch (nil))
 
         `(region ((t (:background ,highlight_background))))
         
