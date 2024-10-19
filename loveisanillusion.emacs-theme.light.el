@@ -5,14 +5,14 @@
 (deftheme loveisanillusion.emacs.light "SJ the Sahil Joseph's Love is an Illusion Light for Emacs.")
 
 (let (
-	     (background "#d6d6d6")
+	     (background "#ffffff")
 	     (foreground "#000000")
 	     (keyword_foreground "#000000")
 	     (preprocessor_foreground "#000000")
-	     (comment_foreground "#005d00")
+	     (comment_foreground "#005500")
 	     (string_foreground "#000000")
 	     (highlight_background "#0044ff")
-	     (highlight_foreground "#d6d6d6")
+	     (highlight_foreground "#ffffff")
 	     (modline_active_foreground "#0d0d0d")
 	     (modline_active_background "#bbbbbb")
 	     (modline_inactive_foreground "#0d0d0d")
@@ -51,7 +51,7 @@
         `(show-paren-match (nil))
         `(show-paren-nismatch (nil))
 
-        `(region ((t (:background ,highlight_background))))
+        `(region ((t (:background ,highlight_background :foreground ,highlight_foreground))))
         
         `(minibuffer-prompt ((t (:foreground ,comment_foreground))))
 
