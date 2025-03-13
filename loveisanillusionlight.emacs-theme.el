@@ -2,7 +2,7 @@
 ;; I created this theme for my emacs, but feel free to use this if you want.
 
 
-(deftheme loveisanillusion.emacs.light "SJ the Sahil Joseph's Love is an Illusion Light for Emacs.")
+(deftheme loveisanillusionlight.emacs "SJ the Sahil Joseph's Love is an Illusion Light for Emacs.")
 
 (let (
 	     (background "#ffffff")
@@ -29,7 +29,7 @@
 	     )
     
     (custom-theme-set-faces
-        'loveisanillusion.emacs.light
+        'loveisanillusionlight.emacs
 
         `(default ((t (:foreground ,foreground :background ,background))))
         `(font-lock-comment-face ((t (:foreground ,comment_foreground))))
@@ -102,7 +102,7 @@
     
     )
 
-(provide-theme 'loveisanillusion.emacs.light)
+(provide-theme 'loveisanillusionlight.emacs)
 
 
 
